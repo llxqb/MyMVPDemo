@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <!--shape下 solid表示填充  corners表示圆角  gradient表示渐变-->
+    <item android:state_pressed="false"> 
+        <shape>
+            <solid android:color="@color/colorWhite" />
+            <corners android:bottomRightRadius="5dp" />
+            <gradient android:angle="45"
+                android:centerColor="@color/label2"
+                android:endColor="@color/colorPrimary"
+                android:startColor="@color/colorWhite" />
+        </shape>
+    </item>
+    <item android:state_pressed="true"> 
+        <shape>
+            <solid android:color="@color/colorForget" />
+            <corners android:bottomRightRadius="5dp" />
+        </shape>
+    </item>
+</selector>

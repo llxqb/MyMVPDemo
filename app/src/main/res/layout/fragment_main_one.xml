@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--第一张图片高度是192*2 -->
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="192dp" />
+
+    <ImageView
+        android:id="@+id/onefragment_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/onefragment_left_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go下一个页面" />
+
+    <Button
+        android:id="@+id/novel_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="阅读小说" />
+
+    <Button
+        android:id="@+id/go_lazyfragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="go_懒加载" />
+
+
+</LinearLayout>

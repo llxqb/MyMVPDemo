@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.freemud.app.mvp.demo.view.views.MyTopBarView
+        android:id="@+id/mytopbarview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        custom:leftText="back"
+        custom:leftTextColor="@color/colorAccent"
+        custom:leftBackground="@drawable/dialog_left_btn_bg"
+        custom:rightText="next"
+        custom:rightTextColor="@color/colorAccent"
+        custom:rightBackground="@drawable/dialog_right_btn_bg"
+        custom:title="MyTitle"
+        custom:titleTextColor="#999999"
+        custom:titleTextSize="8sp" />
+</LinearLayout>

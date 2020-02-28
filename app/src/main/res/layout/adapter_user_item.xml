@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/com_left_right">
+
+    <TextView
+        android:id="@+id/user_item_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/user_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/com_left_right"
+        android:text="小米" />
+
+    <TextView
+        android:id="@+id/user_item_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/com_left_right"
+        android:text="男" />
+
+    <TextView
+        android:id="@+id/user_item_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/com_left_right"
+        android:text="18" />
+
+    <TextView
+        android:id="@+id/user_item_duty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/com_left_right"
+        android:text="学生" />
+
+
+</LinearLayout>

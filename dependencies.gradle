@@ -1,0 +1,18 @@
+ext{
+
+//    myVersionCode = 1
+//    myVersionName = "1.0.0"
+//
+//    myCompileSdkVersion = 25
+//    myBuildToolsVersion = "26.0.3"
+    myApplicationId = "com.freemud.app.mvp.demo.mymvpdemo3"
+    myReleaseSignFile = 'MyMVPDemo.jks'
+    mySignStorePassword = '123456'
+    mySignAlias = 'MyMVPDemo'
+    mySignKeyPassword = '123456'
+//    myMinSdkVersion = 17
+//    myTargetSdkVersion = 25
+    myDependencies = [
+            myGreendao: "org.greenrobot:greendao:3.2.2"
+    ]
+}
